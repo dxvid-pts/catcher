@@ -4,11 +4,11 @@ import 'package:flutter/material.dart';
 
 void main() {
   CatcherOptions debugOptions = CatcherOptions(CustomPageReportMode(), [
-    EmailManualHandler(["recipient@email.com"]),
+
     ConsoleHandler()
   ]);
   CatcherOptions releaseOptions = CatcherOptions(PageReportMode(), [
-    EmailManualHandler(["recipient@email.com"])
+
   ]);
 
   Catcher(

@@ -31,7 +31,7 @@ void main() {
         pageReportModeCancel: "Odrzuć")
   ]);
   CatcherOptions releaseOptions = CatcherOptions(PageReportMode(), [
-    EmailManualHandler(["recipient@email.com"])
+    //EmailManualHandler(["recipient@email.com"])
   ]);
 
   Catcher(

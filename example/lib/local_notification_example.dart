@@ -5,11 +5,11 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 void main() {
   CatcherOptions debugOptions = CatcherOptions(NotificationReportMode(), [
-    EmailManualHandler(["recipient@email.com"]),
+   // EmailManualHandler(["recipient@email.com"]),
     ConsoleHandler()
   ]);
   CatcherOptions releaseOptions = CatcherOptions(PageReportMode(), [
-    EmailManualHandler(["recipient@email.com"])
+   // EmailManualHandler(["recipient@email.com"])
   ]);
 
   Catcher(

@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 
 void main() {
   CatcherOptions debugOptions = CatcherOptions(DialogReportMode(), [
-    EmailManualHandler(["recipient@email.com"]),
+    ConsoleHandler(),
     ConsoleHandler()
   ]);
   CatcherOptions releaseOptions = CatcherOptions(PageReportMode(), [
-    EmailManualHandler(["recipient@email.com"])
+    ConsoleHandler()
   ]);
 
   GlobalKey<NavigatorState> navigatorKey = new GlobalKey<NavigatorState>();

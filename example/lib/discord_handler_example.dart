@@ -11,7 +11,7 @@ void main() {
         printLogs: true),
   ]);
   CatcherOptions releaseOptions = CatcherOptions(PageReportMode(), [
-    EmailManualHandler(["recipient@email.com"])
+
   ]);
 
   Catcher(

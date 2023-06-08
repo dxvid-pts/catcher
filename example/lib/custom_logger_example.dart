@@ -10,7 +10,7 @@ void main() {
     logger: CustomCatcherLogger(),
   );
   CatcherOptions releaseOptions = CatcherOptions(PageReportMode(), [
-    EmailManualHandler(["recipient@email.com"])
+    ConsoleHandler()
   ]);
 
   Catcher(

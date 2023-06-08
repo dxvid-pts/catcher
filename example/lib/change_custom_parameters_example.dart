@@ -13,7 +13,7 @@ void main() {
       ],
       customParameters: customParameters);
   CatcherOptions releaseOptions = CatcherOptions(PageReportMode(), [
-    EmailManualHandler(["recipient@email.com"])
+    ConsoleHandler()
   ]);
 
   catcher = Catcher(

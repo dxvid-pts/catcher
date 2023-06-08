@@ -21,7 +21,7 @@ void main() async {
   CatcherOptions debugOptions = CatcherOptions(
     DialogReportMode(),
     [
-      EmailManualHandler(["email1@email.com", "email2@email.com"],
+      /*EmailManualHandler(["email1@email.com", "email2@email.com"],
           enableDeviceParameters: true,
           enableStackTrace: true,
           enableCustomParameters: true,
@@ -29,7 +29,7 @@ void main() async {
           sendHtml: true,
           emailTitle: "Sample Title",
           emailHeader: "Sample Header",
-          printLogs: true)
+          printLogs: true)*/
     ],
     customParameters: <String, dynamic>{
       "Test": "Test12345",

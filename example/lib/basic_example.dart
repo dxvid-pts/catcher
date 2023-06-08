@@ -6,7 +6,7 @@ void main() {
     ConsoleHandler(),
   ]);
   CatcherOptions releaseOptions = CatcherOptions(PageReportMode(), [
-    EmailManualHandler(["recipient@email.com"])
+    ConsoleHandler()
   ]);
 
   Catcher(
