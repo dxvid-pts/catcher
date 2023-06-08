@@ -1,6 +1,6 @@
 import 'package:catcher/model/report.dart';
 
-abstract class ReportModeAction {
+abstract mixin class ReportModeAction {
   ///Code which should be triggered if report mode has been confirmed
   void onActionConfirmed(Report report);
 
